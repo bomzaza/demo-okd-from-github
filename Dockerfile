@@ -14,4 +14,4 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
 
-CMD sh -c "node server.js & nginx -g 'daemon off;'"
+CMD sh -c "node index.js & nginx -g 'daemon off;'"
