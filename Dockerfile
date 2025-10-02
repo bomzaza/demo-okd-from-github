@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y nginx && rm -rf /var/lib/apt/lists/*
 
 COPY package*.json ./
-RUN npm install --production
+RUN npm install 
 COPY . .
 
 COPY nginx.conf /etc/nginx/nginx.conf
