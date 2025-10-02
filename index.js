@@ -1,5 +1,5 @@
-const express = require("express");
-const chalk = require("chalk");
+import express from "express";
+import chalk from "chalk";
 
 
 const app = express();
