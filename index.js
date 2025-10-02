@@ -1,5 +1,6 @@
-import express from "express";
-import chalk from "chalk";
+const express = require("express");
+const chalk = require("chalk");
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
