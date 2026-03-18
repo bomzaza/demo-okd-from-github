@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
       <p style="font-size:18px;">สอบทดการ Deploy App ใน OKD ผ่าน Github</p>
       <hr style="margin:20px 0;" />
       <p><strong>🕒 Current Date & Time (Realtime):</strong></p>
-      <h2 id="clock" style="color:#ff5722;">${serverTime}</h2>
+      <h2 id="clock" style="color:#ff5722;">${serverTime} testttttt</h2>
       <hr style="margin:20px 0;" />
     </div>
 
