@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   const serverTime = formatDateTime(new Date());
   res.send(`
     <div style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
-      <h1 style="color:#4CAF50;">🚀 Build Image To Container Platform Use (Express + Nginx)</h1>
+      <h1 style="color:#4CAF50;">🚀 Build Image To Container Platform Use (Express + Nginx-New)</h1>
       <p style="font-size:18px;">สอบทดการ Deploy App ใน OKD ผ่าน Github</p>
       <hr style="margin:20px 0;" />
       <p><strong>🕒 Current Date & Time (Realtime):</strong></p>
